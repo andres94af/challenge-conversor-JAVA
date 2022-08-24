@@ -1,12 +1,14 @@
-package ar.com.conversor.monedas;
+package ar.com.conversor.ejecutable;
 
 import javax.swing.*;
+
+import ar.com.conversor.monedas.OpcionesDeConversionMoneda;
 
 public class EjecucionDePrograma {
 	
 	public static void main(String[] args) {
 		
-		TipoDeConversion conversion = new TipoDeConversion();
+		OpcionesDeConversionMoneda conversion = new OpcionesDeConversionMoneda();
 		
 		while(true){
 			String opciones = JOptionPane.showInputDialog(null, "Seleccione que desea convertir", "Menu", JOptionPane.PLAIN_MESSAGE, null,
