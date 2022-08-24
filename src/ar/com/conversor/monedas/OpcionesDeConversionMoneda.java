@@ -7,7 +7,7 @@ public class OpcionesDeConversionMoneda {
 	ConversionMoneda conversion = new ConversionMoneda();
 	
 	public void ConvertirMoneda(double valor) {
-		String opciones = JOptionPane.showInputDialog(null, "Seleccione que tipo de conversion va a hacer", "Opciones de conversion",
+		String opciones = JOptionPane.showInputDialog(null, "Seleccione el factor de conversion", "Opciones de conversion",
 				JOptionPane.PLAIN_MESSAGE, null, new Object[] 
 				{"Peso Argentino a Dolar Estadounidense", "Peso Argentino a Euro", "Peso Argentino a Libra","Peso Argentino a Yen",
 				"Peso Argentino a Won Sul-Cor", "Dolar Estadounidense a Peso Argentino","Euro a Peso Argentino", "Libra a Peso Argentino",
