@@ -9,7 +9,7 @@ public class Respuesta {
 		if(JOptionPane.OK_OPTION == rta){
 			return true;
 		}else {
-			JOptionPane.showMessageDialog(null,"El programa finalizo!", "Finalizar", JOptionPane.INFORMATION_MESSAGE);
+			JOptionPane.showMessageDialog(null,"El programa finalizo correctamente", "Finalizar", JOptionPane.INFORMATION_MESSAGE);
 			return false;
 		}
 	}

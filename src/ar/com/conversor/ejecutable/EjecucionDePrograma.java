@@ -30,7 +30,7 @@ public class EjecucionDePrograma {
 					break;
 				}
 			}catch(NumberFormatException err) {
-				JOptionPane.showMessageDialog(null, "Solo puede ingresar numeros","Error.", JOptionPane.ERROR_MESSAGE);
+				JOptionPane.showMessageDialog(null, "Solo puede ingresar numeros","Error", JOptionPane.ERROR_MESSAGE);
 			}
 			
 			respuesta = rta.rtaFin();
